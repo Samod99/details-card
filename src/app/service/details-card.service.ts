@@ -8,7 +8,7 @@ import { DetailsCard } from '../models/details-card.model';
 })
 export class DetailsCardService {
 
-  baseUrl =  '';
+  baseUrl =  'https://localhost:7108/api/cards';
 
   constructor(private http: HttpClient) { }
 
